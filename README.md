@@ -1,12 +1,12 @@
 <div id="top">
 <a href="icons/bookstore.png">
-  <img src="icons/bookstore.png" alt="Digital Bookstore Management Application Screenshot" />
+  <img src="icons/bookstore.png" alt="BookCommerce Backend image" />
 </a>
 </div>
 
 <h1>
   <img src="icons/bookslogo.png" alt="Logo" width="80" style="vertical-align: middle; margin-right: 8px;">
-  Digital Bookstore Management Application
+  BookCommerce Backend
 </h1>
 
 <p align="center" style="text-decoration: none">
@@ -133,7 +133,7 @@
 <h3>Reliability and Code Quality ✅</h3>
 
 <ul>
-  <li><strong>100% Test Coverage</strong>: all application layers (controllers, services, repositories) are fully tested </li>
+  <li><strong>High Test Coverage</strong>: all application layers (controllers, services, repositories) are fully tested </li>
   <li><strong>Modern Testing Tools</strong>: usage of Mockito and JUnit 5 </li>
   <li><strong>High Stability</strong>: risk minimization through comprehensive testing ️</li>
 </ul>

@@ -50,7 +50,7 @@ public class Order {
     @Column(nullable = false)
     private BigDecimal total;
 
-    @Column(name = "order_date", nullable = false)
+    @Column(name = "order_date", nullable = false, updatable = false)
     private LocalDateTime orderDate = LocalDateTime.now();
 
     @Column(name = "shipping_address", nullable = false)
