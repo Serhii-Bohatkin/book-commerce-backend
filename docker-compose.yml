@@ -1,7 +1,7 @@
 services:
   mysql:
     image: mysql:8.0
-    restart: always
+    restart: on-failure:2
     env_file:
       - ./.env
     environment:
@@ -18,7 +18,7 @@ services:
     depends_on:
       mysql:
         condition: service_healthy
-    restart: always
+    restart: on-failure:2
     build:
       context: .
       dockerfile: Dockerfile
